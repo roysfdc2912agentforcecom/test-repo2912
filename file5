@@ -5,7 +5,7 @@ int rows = 5;
 for (int i = 1; i <= rows; i++) {
 // Print leading spaces and stars using repeat()
 System.out.print(" ".repeat(rows - i));
-System.out.println("*".repeat(2 * i - 1));
+System.out.println("*".repeat(2 * i - 1));# yes changes happen
 }
 }
 }
